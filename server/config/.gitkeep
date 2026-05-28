@@ -1,0 +1,4 @@
+# Keep the config folder but exclude the service account key
+server/config/service-account-key.json
+server/config/*.key.json
+!server/config/.gitkeep
